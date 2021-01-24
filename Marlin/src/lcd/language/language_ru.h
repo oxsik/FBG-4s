@@ -484,6 +484,7 @@ namespace Language_ru {
   PROGMEM Language_Str MSG_TOOL_MIGRATION_SWAP             = _UxGT("Замена на *");
   PROGMEM Language_Str MSG_FILAMENTCHANGE                  = _UxGT("Смена филамента");
   PROGMEM Language_Str MSG_FILAMENTCHANGE_E                = _UxGT("Смена филамента *");
+  PROGMEM Language_Str MSG_FILAMENTUNLOAD                  = _UxGT("Выгрузить филамент");
   PROGMEM Language_Str MSG_FILAMENTLOAD                    = _UxGT("Загрузить филамент");
   #if LCD_WIDTH > 21
     PROGMEM Language_Str MSG_FILAMENTLOAD_E                = _UxGT("Загрузить филамент *");
