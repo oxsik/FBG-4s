@@ -546,9 +546,9 @@
 
 
   //FB4S
-#define DEFAULT_bedKp 46.5
-#define DEFAULT_bedKi 8.65
-#define DEFAULT_bedKd 166.4
+#define DEFAULT_bedKp 53,9
+#define DEFAULT_bedKi 10,5
+#define DEFAULT_bedKd 184,3
 
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
@@ -1001,7 +1001,7 @@
 #define PROBING_MARGIN 30
 
 // X and Y axis travel speed (mm/min) between probes
-#define XY_PROBE_SPEED (2000)
+#define XY_PROBE_SPEED (2400)
 
 // Feedrate (mm/min) for the first approach when double-probing (MULTIPLE_PROBING == 2)
 #define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z
@@ -1156,8 +1156,8 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 250
-#define Y_BED_SIZE 210
+#define X_BED_SIZE 245
+#define Y_BED_SIZE 194
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
@@ -1165,7 +1165,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE + X_MIN_POS
 #define Y_MAX_POS Y_BED_SIZE + Y_MIN_POS
-#define Z_MAX_POS 200
+#define Z_MAX_POS 190
 
 /**
  * Software Endstops
